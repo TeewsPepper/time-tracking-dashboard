@@ -1,0 +1,54 @@
+img {
+    width: 4rem;
+    height: 4rem;
+    
+}
+
+
+.container {
+    min-width: 20rem;
+    height: 13rem;
+    background-color: var(--Dark-blue);
+    border-radius: 1.5rem;
+    
+}
+.header {
+    background-color: var(--Blue);
+    border-radius: 1.5rem;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    align-items: center;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.header img {
+    border: .2rem solid #ffffff;
+    border-radius: 50%;
+}
+.header h1 {
+    font-size: 1.5rem;
+}
+.header span {
+    opacity: .6;
+}
+.tracks {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.btn-track {
+    background-color: transparent;
+    border: none;
+    color: var(--Desaturated-blue);
+}
+.btn-track:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+.btn-track.active {
+    color: #ffffff;
+    
+  }

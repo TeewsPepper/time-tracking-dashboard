@@ -1,0 +1,109 @@
+
+.card-container {
+    margin-top: 1.5rem;
+    min-width: 20rem;
+    height: 10rem;
+    
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: end;
+}
+
+.card-container img {
+    width: 1.3rem;
+    height: .3rem;
+    margin-left: 6.8rem;
+}
+.statistics {
+    width: 100%;
+    height: 75%;
+    background-color: var(--Dark-blue);
+    border-radius: 1.3rem;
+    color: #fff;
+    padding: 1.2rem;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 1fr 1fr;
+    line-height: 1.5;
+}
+.efem p {
+    margin-top: 1.1rem;
+    opacity: .6;
+    font-size: .8rem;
+    margin-left: 1.2rem;
+}
+.current h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.current span {
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+@media (min-width: 768px) {
+    .card-container {
+        min-height: 20rem;
+        margin-top: 0;
+    }
+    .statistics {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+    .efem {
+        max-width: 60%;
+    }
+    
+    .efem p {
+        display: inline-block;
+        margin: 0 1.5rem 2.5rem;
+    }
+    .efem img {
+        position: absolute;
+        right: 1rem;
+        top: 3rem;
+    }
+    .current {
+        max-width: 50%;
+        margin-left: 1rem;
+    }
+    .current h2 {
+        margin-top: 1.5rem;
+    }
+    .current span {
+        font-size: 5rem;
+    }
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+    .header div {
+        margin-bottom: 3rem;
+    }
+    .header h1 {
+        font-size: 2.5rem;
+        line-height: 1.3;
+    }
+    .header span {
+        font-size: 1.3rem;
+    }
+    .header img {
+        width: 5rem;
+        height: 5rem;
+        margin-top: 2rem;
+    }
+    .tracks {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 2rem;
+        padding: 2.5rem 2rem;
+    }
+        
+}
+
+   
